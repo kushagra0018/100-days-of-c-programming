@@ -1,6 +1,6 @@
-Q1: Write a program to input two numbers and display their sum.
+/*Q2: Write a program to input two numbers and display their sum, difference, product, and quotient. */
 
-/*
+
 Sample Test Cases:
 Input 1:
 3 4
