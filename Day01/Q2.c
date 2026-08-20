@@ -1,4 +1,4 @@
-/*Q2: Write a program to input two numbers and display their sum, difference, product, and quotient. */
+/* Q2: Write a program to input two numbers and display their sum, difference, product, and quotient. 
 
 
 Sample Test Cases:
@@ -17,8 +17,13 @@ Sum = 19
 
 int main() {
     int a, b;
-
-    scanf("%d %d", &a, &b);
+    
+    printf("Enter value for a :");
+    scanf("%d",&a);
+    
+    printf("Enter value for b :");
+    scanf("%d",&b);
+        
 
     printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d",
            a + b,

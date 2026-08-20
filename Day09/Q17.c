@@ -23,13 +23,13 @@ Roots are complex
 #include <stdio.h>
 int main() {
     double a, b, c, discriminant, root1, root2, realPart, imagPart;
-    printf("Enter coefficients a, b and c: ");
+    printf("Enter coefficients a: ");
     scanf("%lf",&a);
 
-    printf("Enter coefficients a, b and c: ");
+    printf("Enter coefficients b: ");
     scanf("%lf",&b);
 
-    printf("Enter coefficients a, b and c: ");
+    printf("Enter coefficients c: ");
     scanf("%lf",&c);
 
     discriminant = b * b - 4 * a * c;

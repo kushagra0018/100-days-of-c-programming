@@ -17,8 +17,12 @@ Sum = 19
 
 int main() {
     int a, b;
-
-    scanf("%d %d", &a, &b);
+    
+    printf("Enter value for a :");
+    scanf("%d",&a);
+    
+    printf("Enter value for b :");
+    scanf("%d",&b);
 
     printf("Sum = %d", a + b);
 
